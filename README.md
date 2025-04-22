@@ -8,7 +8,7 @@ This project showcases **MagenticOne's** multiagent features to solve complex pr
    
 ## 📋 Table of Contents  
    
-- [🌟 Project Overview](#project-overview)  
+- [🌟 Project Overview](##project-overview)  
 - [🛠️ Pre-requisites](#pre-requisites)  
 - [📖 Introduction to AGMO](#introduction-to-agmo)  
 - [🧩 Components of MagenticOne](#components-of-magenticone)  
