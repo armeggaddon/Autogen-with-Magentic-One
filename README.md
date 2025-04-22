@@ -135,4 +135,7 @@ This project is licensed under the **MIT License**. 📄
    
 Special thanks to **Microsoft** for creating the **Autogen framework** and advancing agent-based architectures.    
   
-
+## 📖 Read more
+[Autogen MagenticOne Documentation](https://microsoft.github.io/autogen/stable/user-guide/agentchat-user-guide/magentic-one.html)
+[Research Paper](https://arxiv.org/abs/2411.04468)
+[Source Code](https://github.com/microsoft/autogen/tree/v0.4.4/python/packages/autogen-magentic-one)
