@@ -84,7 +84,9 @@ Always monitor and operate in a controlled environment.
 ---  
    
 ## 💻 Example Code  
-   
+
+The above agents are available as individual task agents as well in the Autogen Library which can be added as a customized group of agents in the MagenticOneGroupChat orchestrator.
+
 Here’s how to use **MagenticOneGroupChat** with minimal configuration:  
    
 ```python  
@@ -103,7 +105,7 @@ surfer = MultimodalWebSurfer(
 team = MagenticOneGroupChat([surfer], model_client=model_client)  
 ```  
    
-The **MagenticOne helper class** bundles all agents together, allowing you to focus on tasks without worrying about individual configurations.  
+However, the **MagenticOne helper class** bundles all agents together, allowing you to focus on tasks without worrying about individual configurations which is explained below 
    
 ---  
    
@@ -133,6 +135,4 @@ This project is licensed under the **MIT License**. 📄
    
 Special thanks to **Microsoft** for creating the **Autogen framework** and advancing agent-based architectures.    
   
----  
-   
-Let me know if you need further revisions or additional sections! 😊
+
