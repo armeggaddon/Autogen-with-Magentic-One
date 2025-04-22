@@ -123,7 +123,15 @@ Using **MagenticOne** involves interacting with a digital world designed for hum
 ⚠️ **Be cautious**:    
 Agents may attempt risky actions like recruiting humans for help or accepting cookie agreements without human involvement. Always ensure agents operate in a controlled environment.  
    
----  
+--- 
+
+## ▶️ Quick Start
+
+Follow the instructions in the youtube link on the setup and execution.
+
+https://www.youtube.com/watch?v=OwgAvdYUArA
+
+---
    
 ## 📜 License  
    
