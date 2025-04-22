@@ -6,3 +6,4 @@ API_VERSION = os.getenv('api_version', None)
 AZURE_ENDPOINT = os.getenv('azure_endpoint', None)
 AZURE_DEPLOYMENT = os.getenv('azure_deployment', None)
 
+

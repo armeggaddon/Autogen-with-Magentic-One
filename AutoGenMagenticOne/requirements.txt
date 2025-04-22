@@ -1,0 +1,5 @@
+autogen_agentchat==0.4.9.2
+autogen_ext==0.4.9.2
+autogen_core==0.4.9.2
+gradio==5.25.2
+semantic_kernel==1.20.0

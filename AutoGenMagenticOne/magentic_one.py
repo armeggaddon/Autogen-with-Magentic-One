@@ -1,3 +1,5 @@
+import sys
+import asyncio
 from typing import Annotated
 from semantic_kernel import Kernel
 from semantic_kernel.functions import kernel_function
@@ -40,8 +42,10 @@ def get_tc_manager():
     ORGANISER_INSTRUCTIONS = """
         
         As a Coordinator, you need to interact with user and respond to their queries
-        1. When user ask for a specific task to be accomplished you need to invoke AutoGenPlugin
+        1. When user ask for a specific task to be accomplished you need to invoke AutoGenPlugin and pass input as eg: {"task":"user_defined_task"}
         2. Once the plugin generates the response, summarize them and share with user
+        
+        Note: If the request requires to use websurfer, add the encoding utf-8 in the appropriate place
         
         """
         
@@ -73,8 +77,11 @@ class AutoGenPlugin:
             user_input = user_action_item.get('task')
         except AttributeError:
             user_input = user_action_item
+            
+        if sys.platform=="win32":
+            asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
 
-        m1 = MagenticOne(client=model_client)
+        m1 = MagenticOne(client=model_client,hil_mode=True)
         result = await Console(m1.run_stream(task=user_input))
         
         full_length = len(result.messages)
