@@ -83,7 +83,7 @@ Always monitor and operate in a controlled environment.
    
 ---  
 
-<img src="[https://github.com/armeggaddon/Autogen-with-Magentic-One/autogen-magentic-one-example.png](https://github.com/armeggaddon/Autogen-with-Magentic-One/autogen-magentic-one-example.png)" alt="Microsoft Autogen MagenticOne" width="600" height="400">
+<img src="[https://github.com/armeggaddon/Autogen-with-Magentic-One/blob/main/autogen-magentic-one-example.png](https://github.com/armeggaddon/Autogen-with-Magentic-One/blob/main/autogen-magentic-one-example.png)" alt="Microsoft Autogen MagenticOne" width="600" height="400">
    
 ## 💻 Example Code  
 
