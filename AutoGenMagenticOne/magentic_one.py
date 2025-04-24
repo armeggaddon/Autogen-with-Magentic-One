@@ -36,7 +36,7 @@ def _create_kernel_with_chat_completion(service_id: str) -> Kernel:
     return kernel
 
 
-def get_tc_manager():
+def get_organiser():
 
     ORGANISER_NAME = "Co-Ordinator"
     ORGANISER_INSTRUCTIONS = """

@@ -1,15 +1,15 @@
 import logging
 import traceback
 import gradio as gr
-from magentic_one import get_tc_manager
+from magentic_one import get_organiser
 from semantic_kernel.contents import ChatHistory
 
 chat_history = ChatHistory()
 logger = logging.getLogger(__name__)
 
-async def test_case_agent(chat_history):
+async def organiser(chat_history):
     
-    organiser = get_tc_manager()
+    organiser = get_organiser()
     
     async for content in organiser.invoke(chat_history):
         # Add the response to the chat history
@@ -24,7 +24,7 @@ async def ag_magentic_one_invoker(user_message,history,session_id):
     try:
 
         chat_history.add_user_message(user_message)
-        output_ = await test_case_agent(chat_history)
+        output_ = await organiser(chat_history)
                   
         return output_    
 
