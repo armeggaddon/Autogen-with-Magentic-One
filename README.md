@@ -131,7 +131,7 @@ Agents may attempt risky actions like recruiting humans for help or accepting co
 
 Follow the instructions in the youtube link on the setup and execution.
 
-https://www.youtube.com/watch?v=OwgAvdYUArA
+https://youtu.be/EXEH7G3kPk8
 
 ---
    
